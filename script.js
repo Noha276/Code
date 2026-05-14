@@ -1,3 +1,3 @@
-function bonjour() {
-    alert("Salut !");
+function banane() {
+    alert("Je t'aime");
 }
