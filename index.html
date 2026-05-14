@@ -1,71 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
-    <title>Liste de courses</title>
+    <title>Paris-Saint-Germain</title>
     <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+
+    </style>
+
+
 </head>
 
 <body>
     <img src="179da7b554c2667119d58d741b2a33db.jpg" width="300" class="centre">
 
-    <h1>Liste de courses</h1>
 
-    <p>viandes</p>
-    <br>
-    <input>
-    <br>
-    <input>
-    <br>
-    <input>
-    <br>
-    <input>
-
-    <p>fruit</p>
-    <br>
-    <input>
-    <br>
-    <input>
-    <br>
-    <input>
-    <br>
-    <input>
-
-    <p>légumes</p>
-    <br>
-    <input>
-    <br>
-    <input>
-    <br>
-    <input>
-    <br>
-    <input>
-
-    <p>boissons</p>
-    <br>
-    <input>
-    <br>
-    <input>
-    <br>
-    <input>
-    <br>
-    <input>
-
-    <p>gâteaux</p>
-    <br>
-    <input>
-    <br>
-    <input>
-    <br>
-    <input>
-    <br>
-    <input>
-   
-   
-  
- 
-
+    <h1>Paris-Saint-Germain</h1>
+    <a>Test ta culture du PSG !</a>
+    <br>    
     <script src="script.js"></script>
+
+    <img src="barcola.png" width="1500" class="left">
+    <img src="91e74499a75828250d41f11048cd59bd.jpg" width="150" class="right">
+
+    <div class="rectangle">
+    Bienvenue dans le quiz du PSG !
+    </div>
+
+  <br>
+  <br>
+  <br>
+        <div class="grand-rectangle">
+        Combien de Ligue 1 le Paris Saint Germain a-t-il gagné ?
+        </div>    
+
+  <br>
+
+        
+        <btn onclick="resultat()">Réponse</btn>
+
+        <p id="result"></p>
+
+        <script>
+        function resultat() {
+        document.getElementById("result").innerHTML =
+        "Le PSG a gagné 14 Ligue 1 !";
+        }
+        </script>
 
 </body>
 </html>
