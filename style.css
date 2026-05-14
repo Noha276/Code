@@ -1,6 +1,11 @@
 body {
     background: #6d3ae6;
     color: white;
-    text-align: center;
+    text-align: left;
     font-family: Arial;
+}
+
+img {
+    width: 300px;
+    border-radius: 10px;
 }
